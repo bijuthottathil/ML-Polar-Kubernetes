@@ -4,7 +4,9 @@ Follow these steps to setup environment. I used virtual environment in windows t
 1.  PS D:\ML-Drug\bvenv> python3 -m venv bvenv
 2.  PS D:\ML-Drug\bvenv> .\bvenv\Scripts\Activate.ps1
 3.  cd benv
-4.  Then you can proceed with below steps
+4.  Make sure that Docker for windows/mac is running ![image](https://github.com/user-attachments/assets/383f64b4-5fa7-46a6-8716-52cd07d3056d)
+
+5.  Then you can proceed with below steps
 
 
 (bvenv) PS D:\ML-Drug> pip install pandas
