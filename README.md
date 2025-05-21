@@ -1,4 +1,8 @@
-# ML-Polar
+#  Drug Classification ML model, containerize it with Polar (a FastAPI-based Python framework), deploy it to Kubernetes
+
+![image](https://github.com/user-attachments/assets/8248448a-c481-41e2-a508-5a6d3c04c21f)
+
+
 
 Follow these steps to setup environment. I used virtual environment in windows to run end to end
 1.  PS D:\ML-Drug\bvenv> python3 -m venv bvenv
