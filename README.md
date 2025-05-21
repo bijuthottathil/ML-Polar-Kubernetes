@@ -1,5 +1,11 @@
 # ML-Polar
 
+Follow these steps to setup environment. I used virtual environment in windows to run end to end
+1.  PS D:\ML-Drug\bvenv> python3 -m venv bvenv
+2.  PS D:\ML-Drug\bvenv> .\bvenv\Scripts\Activate.ps1
+3.  cd benv
+4.  Then you can proceed with below steps
+
 
 (bvenv) PS D:\ML-Drug> pip install pandas
 
@@ -30,7 +36,7 @@ Now I am going to deploy this ML model in Kubernetes (MiniKube)
 
 3. Created Dockerfile and requirements.txt![image](https://github.com/user-attachments/assets/da90c318-8dcd-42f8-b3e8-908fdce2c11c) ![image](https://github.com/user-attachments/assets/5099cdfd-2fe3-40f1-8ee5-080af429d8cc)
 
-4. created deployment.yaml under k8s folder![image](https://github.com/user-attachments/assets/954ff8ab-523f-4dd7-83e0-ebbd3fd6a1ec)
+4. Please create K8s folder and put deployment.yaml. created deployment.yaml under k8s folder![image](https://github.com/user-attachments/assets/954ff8ab-523f-4dd7-83e0-ebbd3fd6a1ec)
 
 5. Docker build  using  (bvenv) PS D:\ML-Drug\bvenv> docker build -t bijuthottathil/drug-api:latest .  ![image](https://github.com/user-attachments/assets/942e4592-5f83-4724-b666-708f28bb0640)
 6. Push docker image to docker hub  using docker push bijuthottathil/drug-api:latest    ![image](https://github.com/user-attachments/assets/c418050a-7a63-41b9-9594-68e6095bde82)
